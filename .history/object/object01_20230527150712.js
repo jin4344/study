@@ -1,0 +1,1 @@
+let account={owner:'황진서',age:20,password:''};

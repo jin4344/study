@@ -1,0 +1,1 @@
+let account={owner:'황진서',age:20,password:'1234',{address:"서울시"}};

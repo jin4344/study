@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <span>분석 결과</span>
+    <hr />
+  </body>
+  <script>
+    function roof() {
+      prompt('암호입력') == '호랑이'?return document.write("")
+      if (prompt('암호입력') == '호랑이') {
+        document.write('통과!');
+        return;
+      } else {
+        return roof();
+      }
+    }
+    window.onload = roof();
+  </script>
+</html>
